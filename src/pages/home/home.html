@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-label>Dificuldade</ion-label>
+    <ion-select [(ngModel)]="dificuldade">
+      <ion-option value="0">Fácil</ion-option>
+      <ion-option value="1" selected="true">Médio</ion-option>
+      <ion-option value="2">Difícil</ion-option>
+    </ion-select>
+  </ion-item>
+  
+  <button ion-button block large (click)="iniciarJogo()" id="btn_iniciar_jogo">
+    Iniciar Jogo!
+  </button>
+  
+</ion-content>

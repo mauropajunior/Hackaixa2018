@@ -1,0 +1,7 @@
+{
+  "name": "caca_tesouro_quiz",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
